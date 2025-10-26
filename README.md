@@ -15,7 +15,7 @@ Run the executable and provide the video path:
 ```
 
 ## Results
-The visualization shows the input video where each potential eel is outlined in blue and assigned an ID. When a region is confirmed as an eel, a green bounding box appears around it with the label “Anguille,” and its trajectory is recorded in a CSV file. Console updates also display the frame processing progress. The algorithm is robust to slow movements and partial occlusions, and each eel is confirmed only after several consecutive frames to reduce false detections.
+The visualization shows the input video where each potential eel is outlined in blue and assigned an ID. When a region is confirmed as an eel, a green bounding box appears around it with the label “Anguille” and its trajectory is recorded in a CSV file. Console updates also display the frame processing progress. The algorithm is robust to slow movements and partial occlusions, and each eel is confirmed only after several consecutive frames to reduce false detections.
 
 <p align="center">
   <img src="docs/Result_Vid1.gif" alt="Result" width="100%">
