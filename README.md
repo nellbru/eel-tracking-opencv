@@ -25,7 +25,7 @@ The visualization shows the input video where each potential eel is outlined in 
   <img src="docs/Result_Vid2.gif" alt="Result" width="100%">
 </p>
 
-The algorithm is robust to slow movements and noise. Each eel is confirmed after several consecutive frames to reduce false detections.
+The algorithm is robust to noise and slow movements. Each eel is confirmed after several consecutive frames to reduce false detections.
 
 ## Project Structure
     eel-tracking-opencv/
